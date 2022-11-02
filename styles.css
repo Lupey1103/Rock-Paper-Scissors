@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+.display {
+    background-color: rgb(53, 133, 156);
+    border-radius: 10px;
+    padding: 2px 0 2px 10px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span {
+    color: white;
+    padding: 5px 250px 5px 250px;
+}
+
+#computer-choice, #user-choice, #result  {
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 10%;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#rock {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 12px 28px;
+}
+
+#paper {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 12px 28px;
+}
+
+#scissors {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 12px 28px;
+}
